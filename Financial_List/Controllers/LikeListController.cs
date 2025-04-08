@@ -100,13 +100,13 @@ public class LikeListController : Controller
 
         var parameters = new[]
         {
-            new SqlParameter("@UserID", userId),                
+            new SqlParameter("@UserID", userId),
         };
 
         var result = await _context.UserLikeListView
             .FromSqlRaw("EXEC GetUserLikeList @UserID", parameters)
-            .ToListAsync();    
-    
+            .ToListAsync();
+
         PopulateDropDownLists();
         return View(result);
     }
@@ -146,23 +146,36 @@ public class LikeListController : Controller
                 return View(model);
             }
 
-            var parameters = new[]
+            using (var transaction = await _context.Database.BeginTransactionAsync())
             {
-                new SqlParameter("@UserID", model.UserID),
-                new SqlParameter("@ProductNo", model.ProductNo),
-                new SqlParameter("@OrderAmount", model.OrderAmount),
-                new SqlParameter("@Account", model.Account),
-                new SqlParameter("@TotalFee", model.TotalFee),
-                new SqlParameter("@TotalAmount", model.TotalAmount)
-            };
+                try
+                {
+                    var parameters = new[]
+                    {
+                        new SqlParameter("@UserID", model.UserID),
+                        new SqlParameter("@ProductNo", model.ProductNo),
+                        new SqlParameter("@OrderAmount", model.OrderAmount),
+                        new SqlParameter("@Account", model.Account),
+                        new SqlParameter("@TotalFee", model.TotalFee),
+                        new SqlParameter("@TotalAmount", model.TotalAmount)
+                    };
+                    await _context.Database.ExecuteSqlRawAsync(
+                        "EXEC InsertLikeItem @UserID, @ProductNo, @OrderAmount, @Account, @TotalFee, @TotalAmount",
+                        parameters
+                    );
+                    await transaction.CommitAsync();
 
-            await _context.Database.ExecuteSqlRawAsync(
-                "EXEC InsertLikeItem @UserID, @ProductNo, @OrderAmount, @Account, @TotalFee, @TotalAmount",
-                parameters
-            );
-
-            PopulateDropDownLists();
-            return RedirectToAction("Index", new { userId = model.UserID });
+                    PopulateDropDownLists();
+                    return RedirectToAction("Index", new { userId = model.UserID });
+                }
+                catch (Exception ex)
+                {
+                    await transaction.RollbackAsync();
+                    ModelState.AddModelError("", $"新增失敗: {ex.Message}");
+                    PopulateDropDownLists();
+                    return View(model);
+                }
+            }
         }
         catch (Exception ex)
         {
@@ -214,21 +227,35 @@ public class LikeListController : Controller
             return View(model);
         }
 
-        var parameters = new[]
+        using (var transaction = await _context.Database.BeginTransactionAsync())
         {
-            new SqlParameter("@SN", model.SN),
-            new SqlParameter("@OrderAmount", model.OrderAmount),
-            new SqlParameter("@Account", model.Account),
-            new SqlParameter("@TotalFee", model.TotalFee),
-            new SqlParameter("@TotalAmount", model.TotalAmount)
-        };
+            try
+            {
+                var parameters = new[]
+                {
+                    new SqlParameter("@SN", model.SN),
+                    new SqlParameter("@OrderAmount", model.OrderAmount),
+                    new SqlParameter("@Account", model.Account),
+                    new SqlParameter("@TotalFee", model.TotalFee),
+                    new SqlParameter("@TotalAmount", model.TotalAmount)
+                };
+                await _context.Database.ExecuteSqlRawAsync(
+                    "EXEC UpdateLikeItem @SN, @OrderAmount, @Account, @TotalFee, @TotalAmount",
+                    parameters
+                );
 
-        await _context.Database.ExecuteSqlRawAsync(
-            "EXEC UpdateLikeItem @SN, @OrderAmount, @Account, @TotalFee, @TotalAmount",
-            parameters
-        );
+                await transaction.CommitAsync();
 
-        PopulateDropDownLists();
-        return RedirectToAction("Index", new { userId = model.UserID });
+                PopulateDropDownLists();
+                return RedirectToAction("Index", new { userId = model.UserID });
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                ModelState.AddModelError("", $"新增失敗: {ex.Message}");
+                PopulateDropDownLists();
+                return View(model);
+            }
+        }
     }
 }
