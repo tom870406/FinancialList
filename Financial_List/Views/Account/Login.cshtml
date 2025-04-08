@@ -1,0 +1,24 @@
+﻿@model Financial_List.ViewModels.LoginViewModel
+@{
+    ViewData["Title"] = "登入";
+}
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+<form asp-action="Login" method="post">
+    <div class="form-group">
+        <label asp-for="UserID">身分證字號</label>
+        <input asp-for="UserID" class="form-control" maxlength="10" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">密碼</label>
+        <input asp-for="Password" class="form-control" type="password" />
+    </div>
+    <button type="submit" class="btn btn-primary">登入</button>
+</form>
+
+<p>還沒有帳號？<a asp-action="Register">註冊</a></p>

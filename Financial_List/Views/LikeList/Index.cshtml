@@ -1,0 +1,48 @@
+﻿@model List<Financial_List.ViewModels.UserLikeListViewModel>
+
+@{
+    ViewData["Title"] = "喜好金融商品清單";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">新增喜好清單</a>
+</p>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>產品名稱</th>
+            <th>價格</th>
+            <th>手續費率</th>
+            <th>購買數量</th>
+            <th>總手續費用</th>
+            <th>預計扣款金額</th>
+            <th>扣款帳號</th>
+            <th>電子信箱</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.FeeRate</td>
+                <td>@item.OrderAmount</td>
+                <td>@item.TotalFee</td>
+                <td>@item.TotalAmount</td>
+                <td>@item.Account</td>
+                <td>@item.Email</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.SN" class="btn btn-sm btn-primary">編輯</a>
+                    <form asp-action="Delete" asp-route-id="@item.SN" method="post" style="display:inline;" onsubmit="return confirm('確定要刪除這筆資料嗎？')">
+                        <button type="submit" class="btn btn-sm btn-danger">刪除</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

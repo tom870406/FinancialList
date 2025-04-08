@@ -1,0 +1,80 @@
+﻿@model Financial_List.Models.LikeList
+
+@{
+    ViewData["Title"] = "新增喜好商品";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <input type="hidden" asp-for="SN" />
+    <input type="hidden" asp-for="UserID" />
+
+    <div class="form-group">
+        <label asp-for="ProductNo">商品</label>
+        <select asp-for="ProductNo" class="form-control" asp-items="ViewBag.Products" id="ProductNo">
+            <option value="">請選擇</option>
+        </select>
+        <span asp-validation-for="ProductNo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OrderAmount">訂購數量</label>
+        <input asp-for="OrderAmount" class="form-control" id="OrderAmount"/>
+        <span asp-validation-for="OrderAmount" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Account">帳號</label>
+        <select asp-for="Account" class="form-control" asp-items="ViewBag.Users"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TotalFee">總手續費</label>
+        <input asp-for="TotalFee" class="form-control" readonly id="TotalFee" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TotalAmount">總金額</label>
+        <input asp-for="TotalAmount" class="form-control" readonly id="TotalAmount" />
+    </div>    
+    
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">新增</button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">取消</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        var products = @Html.Raw(Json.Serialize(ViewBag.ProductList));
+
+        function calculateTotals() {
+            var productNo = parseInt($("#ProductNo").val());
+            var orderAmount = parseInt($("#OrderAmount").val());
+            var product = products.find(p => p.productNo === productNo);
+
+            if (product && orderAmount > 0) {
+                var totalFee = product.price * orderAmount * product.feeRate;
+                var totalAmount = product.price * orderAmount + totalFee;
+
+                $("#TotalFee").val(totalFee.toFixed(2));
+                $("#TotalAmount").val(totalAmount.toFixed(2));
+            } else {
+                $("#TotalFee").val("");
+                $("#TotalAmount").val("");
+            }
+        }
+
+        $(document).ready(function () {
+            $("#ProductNo, #OrderAmount").on("change keyup", calculateTotals);
+
+            // init
+            calculateTotals();
+        });
+    </script>
+}

@@ -1,0 +1,6 @@
+CREATE PROCEDURE DeleteLikeItem
+    @SN INT
+AS
+BEGIN
+    DELETE FROM LikeList WHERE SN = @SN
+END
