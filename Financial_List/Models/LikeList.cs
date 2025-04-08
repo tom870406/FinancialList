@@ -11,7 +11,7 @@ namespace Financial_List.Models
         [Required]
         public string UserID { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "請選擇產品")]
         public int ProductNo { get; set; }
 
         [Range(1, 999, ErrorMessage = "訂購數量必須介於1到999之間")]

@@ -166,7 +166,7 @@ public class LikeListController : Controller
                     await transaction.CommitAsync();
 
                     PopulateDropDownLists();
-                    return RedirectToAction("Index", new { userId = model.UserID });
+                    return RedirectToAction("Index");
                 }
                 catch (Exception ex)
                 {
@@ -204,9 +204,20 @@ public class LikeListController : Controller
     [HttpGet]
     public async Task<IActionResult> Edit(int id)
     {
-        if (!IsLoggedIn()) return RedirectToAction("Login", "Account");        
+        if (!IsLoggedIn()) return RedirectToAction("Login", "Account");
 
-        var result = await _context.LikeList.FindAsync(id);
+
+        var parameters = new[]
+{
+            new SqlParameter("@UserID", CommonData.UserID),
+            new SqlParameter("@SN", id),
+        };
+
+        var result = (await _context.LikeList
+            .FromSqlRaw("EXEC GetUserLikeListBySN @UserID, @SN", parameters)
+            .ToListAsync())
+            .FirstOrDefault();
+        
         if (result == null)
             return NotFound();
 
@@ -247,12 +258,12 @@ public class LikeListController : Controller
                 await transaction.CommitAsync();
 
                 PopulateDropDownLists();
-                return RedirectToAction("Index", new { userId = model.UserID });
+                return RedirectToAction("Index");
             }
             catch (Exception ex)
             {
                 await transaction.RollbackAsync();
-                ModelState.AddModelError("", $"新增失敗: {ex.Message}");
+                ModelState.AddModelError("", $"更新失敗: {ex.Message}");
                 PopulateDropDownLists();
                 return View(model);
             }

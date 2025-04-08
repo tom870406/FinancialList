@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\models\\likelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\models\\likelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\controllers\\likelistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\controllers\\likelistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +15,12 @@
       "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\likelist\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\likelist\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\likelist\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\likelist\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\likelist\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\likelist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\likelist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\models\\likelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\models\\likelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +31,64 @@
       "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\likelist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\likelist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\likelist\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\likelist\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\viewmodels\\userlikelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\viewmodels\\userlikelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\likelist\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\views\\likelist\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\viewmodels\\loginviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\viewmodels\\loginviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\models\\commondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\models\\commondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -59,22 +103,6 @@
       "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\viewmodels\\loginviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\viewmodels\\loginviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|c:\\users\\bo cheng\\desktop\\financial_list\\financial_list\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3FA8330F-24BC-4FCE-AC24-014E5CA910A5}|Financial_List\\Financial_List.csproj|solutionrelative:financial_list\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -86,11 +114,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Program.cs",
               "RelativeDocumentMoniker": "Financial_List\\Program.cs",
@@ -103,20 +131,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Financial_List\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Financial_List\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-07T12:52:42.976Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Financial_List\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Financial_List\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T16:59:59.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Financial_List\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Financial_List\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T16:58:26.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Financial_List\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Financial_List\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T16:57:45.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Financial_List\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Financial_List\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T16:55:39.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Financial_List\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Financial_List\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAqwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:34:59.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "Financial_List\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "Financial_List\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:34:29.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CommonData.cs",
+              "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Models\\CommonData.cs",
+              "RelativeDocumentMoniker": "Financial_List\\Models\\CommonData.cs",
+              "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Models\\CommonData.cs",
+              "RelativeToolTip": "Financial_List\\Models\\CommonData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:29:41.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Financial_List\\Controllers\\HomeController.cs",
@@ -128,19 +248,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Financial_List\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Financial_List\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T16:54:08.87Z"
+              "WhenOpened": "2025-04-07T16:54:08.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Financial_List\\Views\\Account\\Register.cshtml",
@@ -152,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Financial_List\\ViewModels\\RegisterViewModel.cs",
@@ -160,11 +281,12 @@
               "RelativeToolTip": "Financial_List\\ViewModels\\RegisterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T16:53:02.26Z"
+              "WhenOpened": "2025-04-07T16:53:02.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "LoginViewMode.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\ViewModels\\LoginViewMode.cs",
               "RelativeDocumentMoniker": "Financial_List\\ViewModels\\LoginViewMode.cs",
@@ -172,11 +294,12 @@
               "RelativeToolTip": "Financial_List\\ViewModels\\LoginViewMode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T16:50:36.211Z"
+              "WhenOpened": "2025-04-07T16:50:36.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Financial_List\\Views\\Account\\Login.cshtml",
@@ -188,56 +311,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\LikeList\\Index.cshtml",
               "RelativeDocumentMoniker": "Financial_List\\Views\\LikeList\\Index.cshtml",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\LikeList\\Index.cshtml",
               "RelativeToolTip": "Financial_List\\Views\\LikeList\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T15:38:28.877Z"
+              "WhenOpened": "2025-04-07T15:38:28.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\LikeList\\Create.cshtml",
               "RelativeDocumentMoniker": "Financial_List\\Views\\LikeList\\Create.cshtml",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\LikeList\\Create.cshtml",
               "RelativeToolTip": "Financial_List\\Views\\LikeList\\Create.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAArwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T15:40:18.677Z"
+              "WhenOpened": "2025-04-07T15:40:18.677Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\LikeList\\Edit.cshtml",
               "RelativeDocumentMoniker": "Financial_List\\Views\\LikeList\\Edit.cshtml",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\LikeList\\Edit.cshtml",
               "RelativeToolTip": "Financial_List\\Views\\LikeList\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-07T15:41:04.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\LikeList\\Delete.cshtml",
               "RelativeDocumentMoniker": "Financial_List\\Views\\LikeList\\Delete.cshtml",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Views\\LikeList\\Delete.cshtml",
               "RelativeToolTip": "Financial_List\\Views\\LikeList\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T15:41:32.633Z"
+              "WhenOpened": "2025-04-07T15:41:32.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "UserLikeListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\ViewModels\\UserLikeListViewModel.cs",
               "RelativeDocumentMoniker": "Financial_List\\ViewModels\\UserLikeListViewModel.cs",
@@ -245,32 +371,34 @@
               "RelativeToolTip": "Financial_List\\ViewModels\\UserLikeListViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T13:03:05.321Z"
+              "WhenOpened": "2025-04-07T13:03:05.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LikeListController.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Controllers\\LikeListController.cs",
               "RelativeDocumentMoniker": "Financial_List\\Controllers\\LikeListController.cs",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Controllers\\LikeListController.cs",
               "RelativeToolTip": "Financial_List\\Controllers\\LikeListController.cs",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAkwOgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAqwNgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T13:01:22.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "LikeList.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Models\\LikeList.cs",
               "RelativeDocumentMoniker": "Financial_List\\Models\\LikeList.cs",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Models\\LikeList.cs",
               "RelativeToolTip": "Financial_List\\Models\\LikeList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:51:59.508Z"
+              "WhenOpened": "2025-04-07T12:51:59.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -280,37 +408,40 @@
               "RelativeDocumentMoniker": "Financial_List\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Models\\Product.cs",
               "RelativeToolTip": "Financial_List\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:51:40.745Z"
+              "WhenOpened": "2025-04-07T12:51:40.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Models\\User.cs",
               "RelativeDocumentMoniker": "Financial_List\\Models\\User.cs",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Models\\User.cs",
               "RelativeToolTip": "Financial_List\\Models\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:50:57.429Z"
+              "WhenOpened": "2025-04-07T12:50:57.429Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Financial_List\\Models\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Financial_List\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:12:57.033Z"
+              "WhenOpened": "2025-04-07T12:12:57.033Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\BO CHENG\\Desktop\\Financial_List\\Financial_List\\appsettings.json",
               "RelativeDocumentMoniker": "Financial_List\\appsettings.json",

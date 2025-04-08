@@ -1,0 +1,34 @@
+﻿@model Financial_List.ViewModels.ProductViewModel
+
+@{
+    ViewData["Title"] = "修改產品";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="ProductNo" />
+
+    <div class="form-group">
+        <label asp-for="ProductName">產品名稱</label>
+        <input asp-for="ProductName" class="form-control" id="ProductName" />
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price">價格</label>
+        <input asp-for="Price" class="form-control" id="Price" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FeeRate">手續費率</label>
+        <input asp-for="FeeRate" class="form-control" value="@Model.FeeRate.ToString("0.000")" />
+        <span asp-validation-for="FeeRate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">儲存</button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">取消</a>
+    </div>
+</form>

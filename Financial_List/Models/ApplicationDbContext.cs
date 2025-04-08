@@ -14,12 +14,14 @@ namespace Financial_List.Models
         public DbSet<LikeList> LikeList { get; set; }
 
         public DbSet<UserLikeListViewModel> UserLikeListView { get; set; }
+        public DbSet<ProductViewModel> ProductView { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<UserLikeListViewModel>().HasNoKey(); // 沒有主鍵的 ViewModel
+            modelBuilder.Entity<UserLikeListViewModel>().HasNoKey();
+            modelBuilder.Entity<ProductViewModel>().HasNoKey();
         }
     }
 }

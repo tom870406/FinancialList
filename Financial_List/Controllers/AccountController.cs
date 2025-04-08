@@ -33,6 +33,10 @@ public class AccountController : Controller
         {
             HttpContext.Session.SetString("UserID", result.UserID);
             HttpContext.Session.SetString("UserName", result.UserName);
+            CommonData.UserID = result.UserID;
+            CommonData.UserName = result.UserName;
+            CommonData.Email = result.Email;
+            CommonData.Account = result.Account;
             return RedirectToAction("Index", "LikeList");
         }
 

@@ -1,0 +1,38 @@
+﻿@model List<Financial_List.ViewModels.ProductViewModel>
+
+@{
+    ViewData["Title"] = "金融產品清單";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">新增產品</a>
+</p>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>產品名稱</th>
+            <th>價格</th>
+            <th>手續費率</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.FeeRate</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductNo" class="btn btn-sm btn-primary">編輯</a>
+                    <form asp-action="Delete" asp-route-id="@item.ProductNo" method="post" style="display:inline;" onsubmit="return confirm('確定要刪除這筆資料嗎？')">
+                        <button type="submit" class="btn btn-sm btn-danger">刪除</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
